@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+ <meta charset="utf-8">
+ <!doctype html>
+ <html>
+ <head>
+     <title>My Blog</title>
+ <style>
+   h1{
+     border-bottom:3px solid orange;
+     margin:0;
+     padding-bottom:20px;
+     font-size:30px;
+     text-align: center;
+   }
+   a{
+    color:black;
+   }
+
+   nav{
+     border-right:2px solid orange;
+     width:150px;
+     font-size:15px;
+     display: grid;
+   }
+
+
+   #main{
+     display: grid;
+     grid-template-columns:150px 1fr;
+     height:500px;
+   }
+
+   textarea{
+     border-width: 0;
+     width:750px;
+ 	   height:400px;
+     resize:none;
+      padding:5px;
+      border-radius: 10px;
+      margin: 10px;
+   }
+
+   table{
+     width:1005;
+     border-top: 1px solid orange;
+     border-collapse: collapse;
+   }
+
+   th, td{
+     border-bottom: 1px solid black;
+     padding: 15px;
+      text-align: center;
+   }
+
+   button{
+     background-color: blue;
+     border: none;
+     color: white;
+     padding: 3px 5px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 10px;
+     margin: 2px 2.5px;
+     cursor: pointer;
+     float: right;
+   }
+
+ </style>
+ </head>
+ <body>
+ <h1>나의 일기장_2019년</h1>
+   <div id="main">
+    <nav id="nav">
+      <ul>
+        <li><a href="diary.html">2019년</a></li>
+        <li><a href="diary2.html">2020년</a></li>
+        <li><a href="blog1_2.html">2021년</a></li>
+      </ul>       
+    </nav>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>번호</th>
+          <th>제목</th>
+          <th>날짜</th>
+          <th>조회수</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2</td>
+          <td>종강이 그립다.</td>
+          <td>2020.10.08</td>
+          <td>3</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>학교를 왜 다니는가에 대한 고찰</td>
+          <td>2020.10.10</td>
+          <td>5</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>과제는 교수님이 직접 하기로 약속</td>
+          <td>2020.10.30</td>
+          <td>3</td>
+        </tr>
+
+        <tr>
+          <td>5</td>
+          <td>아잇추워</td>
+          <td>2020.11.15</td>
+          <td>9</td>
+        </tr>
+
+        <tr>
+          <td>6</td>
+          <td>크리스마스는 집콕</td>
+          <td>2020.12.25</td>
+          <td>3</td>
+        </tr>
+
+      </tbody>
+
+    </table>
+   </div>
+    <footer id="footer">
+        <a href="blog1_4.html"> <button type="submit">일기쓰기</button> </a>
+     </footer>
+
+ </body>
+ </html>

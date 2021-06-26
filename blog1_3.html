@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+ <meta charset="utf-8">
+ <!doctype html>
+ <html>
+ <head>
+     <title>My Blog</title>
+ <style>
+   h1{
+     border-bottom:3px solid orange;
+     margin:0;
+     padding-bottom:20px;
+     font-size:30px;
+     text-align: center;
+   }
+   a{
+    color:black;
+   }
+
+   nav{
+     border-right:2px solid orange;
+     width:150px;
+     font-size:15px;
+     display: grid;
+   }
+
+
+   #main{
+     display: grid;
+     grid-template-columns:150px 1fr;
+     height:500px;
+   }
+
+   textarea{
+     border-width: 0;
+     width:750px;
+ 	   height:400px;
+     resize:none;
+      padding:5px;
+      border-radius: 10px;
+      margin: 10px;
+   }
+   button{
+      background-color: orange;
+      border: none;
+      color: black;
+      padding: 3px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      margin: 10px 5px;
+      cursor: pointer;
+   }
+
+ </style>
+ </head>
+ <body>
+ <h1>나의 일기장_2019년</h1>
+   <div id="main">
+    <nav id="nav">
+      <ul>
+        <li><a href="diary.html">2019년</a></li>
+        <li><a href="diary2.html">2020년</a></li>
+        <li><a href="blog1_2.html">2021년</a></li>
+      </ul>       
+    </nav>
+
+    <article id="mid">
+       <label for="content"></label>
+       <textarea class="form-control" rows="20" id="content"
+       name="content" placeholder="오늘은 어떤 일이 있었나요?"></textarea>
+       <button type="submit" class="btn btn-default">쓰기</button> 
+    </article>
+   </div>
+    <footer id="footer">
+        ㅃ우ㅃ아ㅃ오
+     </footer>
+
+ </body>
+ </html>
